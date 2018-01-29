@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 
 <head>
@@ -572,8 +572,8 @@
         };
         function qingqiu(shijian){
             $.ajax({
-                type: 'post',
-                url: 'json/kaoqinjilu.json',
+                type: 'get',
+                url: 'https://jinnianss.github.io/youeryuanj/json/kaoqinjilu.json',
                 data:{"shijian":shijian},
                 dataType: 'json', //很重要!!!.预期服务器返回的数据类型 , */
                 success: function (data) {
